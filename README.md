@@ -57,6 +57,12 @@ Mac "Launch Agents" can be for all users, (/Library/LaunchAgents/) or for specif
 
 I'd really like such features build into file download (and upload) dialogs for the browsers themselves.
 
+Firefox:
+
+![image](https://user-images.githubusercontent.com/82182/89753818-9e796f80-dad1-11ea-8f31-caf64d44cde2.png)
+
+Chrome:
+
 ![image](https://user-images.githubusercontent.com/82182/89753062-bbf90a00-dace-11ea-9f72-0f00a84f47b9.png)
 
 The key is that this has to be one-click with no further "are you sure" confirmation dialog. Though your new problem is that 
