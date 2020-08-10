@@ -4,6 +4,12 @@ Each time Chrome, Firefox, Safari (etc) drop a file in your downloads folder, a 
 if you want to delete the file in 24 hours. Note this also works or ANYTHING that finds its way into your 
 ~/Downloads folder.
 
+Not for everyone, but fo some download is a "workflow" moment. You intention may be to send a pic from your 
+phone to your desktop, (work on it a little bit in a picture package, then out it out on social media etc. 
+That last marks the last time you need it on your desktop, so it would be nice if it could be silently
+deleted sometime after your likely finishing with it. 24 hours later seems like a reasonable amount of time, but 
+others might like 7 days (not coded yet).
+
 ## Screenshots
 
 Down a pic (or video, or anything) to save somehow:
@@ -46,3 +52,13 @@ cp browser-download-deleter-launcher.sh /usr/local/bin/
 ```
 
 Mac "Launch Agents" can be for all users, (/Library/LaunchAgents/) or for specific user (~/Library/LaunchAgents/). We need the latter here.
+
+# Footnote
+
+I'd really like such features build into file download (and upload) dialogs for the browsers themselves.
+
+![image](https://user-images.githubusercontent.com/82182/89753062-bbf90a00-dace-11ea-9f72-0f00a84f47b9.png)
+
+The key is that this has to be one-click with no further "are you sure" confirmation dialog. Though your new problem is that 
+there probably needs to be a way to visualize in another list (Finder or WindowsExplorer?) and change your mind about future 
+deletion
